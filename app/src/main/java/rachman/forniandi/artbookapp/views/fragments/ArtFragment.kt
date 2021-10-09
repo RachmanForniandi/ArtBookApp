@@ -1,11 +1,10 @@
-package rachman.forniandi.artbookapp
+package rachman.forniandi.artbookapp.views.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import rachman.forniandi.artbookapp.R
 import rachman.forniandi.artbookapp.databinding.FragmentArtBinding
 
 

@@ -1,7 +1,8 @@
-package rachman.forniandi.artbookapp
+package rachman.forniandi.artbookapp.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import rachman.forniandi.artbookapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
