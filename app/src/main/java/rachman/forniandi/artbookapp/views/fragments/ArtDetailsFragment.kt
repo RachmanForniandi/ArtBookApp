@@ -5,10 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.View
 import androidx.activity.OnBackPressedCallback
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.RequestManager
 import rachman.forniandi.artbookapp.R
 import rachman.forniandi.artbookapp.databinding.FragmentArtDetailsBinding
+import javax.inject.Inject
 
-class ArtDetailsFragment : Fragment(R.layout.fragment_art_details) {
+class ArtDetailsFragment @Inject constructor(val glide: RequestManager): Fragment(R.layout.fragment_art_details) {
 
     private var binding:FragmentArtDetailsBinding?=null
 
