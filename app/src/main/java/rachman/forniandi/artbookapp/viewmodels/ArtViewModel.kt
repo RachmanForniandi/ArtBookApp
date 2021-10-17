@@ -67,6 +67,7 @@ class ArtViewModel @ViewModelInject constructor(
         setSelectedImage("")
         insertArtMsg.postValue(Resource.success(art))
     }
+
     fun searchForImage(searchImg:String){
         if (searchImg.isEmpty()) {
             return

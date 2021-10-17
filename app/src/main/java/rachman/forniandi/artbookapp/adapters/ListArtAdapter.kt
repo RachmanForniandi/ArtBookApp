@@ -15,6 +15,8 @@ class ListArtAdapter @Inject constructor(
     private val glide: RequestManager
 ): RecyclerView.Adapter<ListArtAdapter.ListArtHolder>() {
 
+
+
     private val diffUtil = object : DiffUtil.ItemCallback<Art>() {
         override fun areItemsTheSame(oldItem: Art, newItem: Art): Boolean {
             return oldItem == newItem
@@ -35,6 +37,7 @@ class ListArtAdapter @Inject constructor(
         val binding= ItemArtBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         return ListArtHolder(binding)
     }
+
 
     override fun onBindViewHolder(holder: ListArtHolder, position: Int) {
         val items = recyclerListDiffer.currentList[position]
