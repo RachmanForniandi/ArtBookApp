@@ -14,4 +14,6 @@ interface ArtRepositoryInterface {
     fun getDataArt():LiveData<List<Art>>
 
     suspend fun searchImage(imgString:String):Resource<ImageResponse>
+
+
 }
