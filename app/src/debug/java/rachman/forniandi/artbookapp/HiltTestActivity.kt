@@ -1,4 +1,4 @@
-package rachman.forniandi.artbookapp.hiltTesting
+package rachman.forniandi.artbookapp
 
 import androidx.appcompat.app.AppCompatActivity
 import dagger.hilt.android.AndroidEntryPoint

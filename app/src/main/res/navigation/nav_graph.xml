@@ -14,6 +14,7 @@
             android:id="@+id/action_artFragment_to_artDetailsFragment"
             app:destination="@id/artDetailsFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/artDetailsFragment"
         android:name="rachman.forniandi.artbookapp.views.fragments.ArtDetailsFragment"

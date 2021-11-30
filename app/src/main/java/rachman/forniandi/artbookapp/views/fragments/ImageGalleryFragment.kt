@@ -31,7 +31,7 @@ class ImageGalleryFragment
 @Inject constructor(
     val imageRecyclerAdapter: ImageRecyclerAdapter
 ) : Fragment(R.layout.fragment_image_gallery) {
-    private lateinit var viewModel: ArtViewModel
+    lateinit var viewModel: ArtViewModel
     private var imgGalleryBinding: FragmentImageGalleryBinding? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

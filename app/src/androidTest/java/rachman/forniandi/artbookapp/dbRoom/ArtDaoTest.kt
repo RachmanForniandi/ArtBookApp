@@ -37,7 +37,6 @@ class ArtDaoTest {
     @Named("testDatabase")
     lateinit var db:ArtDatabase
 
-
     private lateinit var dao:ArtDao
 
     @Before

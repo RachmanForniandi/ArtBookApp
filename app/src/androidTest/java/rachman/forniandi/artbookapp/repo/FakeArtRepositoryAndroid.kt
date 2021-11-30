@@ -7,7 +7,7 @@ import rachman.forniandi.artbookapp.repositories.ArtRepositoryInterface
 import rachman.forniandi.artbookapp.room.Art
 import rachman.forniandi.artbookapp.utils.Resource
 
-class FakeArtRepository : ArtRepositoryInterface {
+class FakeArtRepositoryAndroid : ArtRepositoryInterface {
     private val arts = mutableListOf<Art>()
     private val artsLiveData = MutableLiveData<List<Art>>(arts)
 

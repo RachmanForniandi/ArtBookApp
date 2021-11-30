@@ -57,7 +57,7 @@ class ImageRecyclerAdapter @Inject constructor(
         }
     }
 
-    inner class ImageViewHolder (val view:ItemImageBinding) : RecyclerView.ViewHolder(view.root){
+    class ImageViewHolder (val view:ItemImageBinding) : RecyclerView.ViewHolder(view.root){
         val imgArt = view.imageItem
         /*fun bind(urlImg: String) {
             glide.load(urlImg).into(imgArt)

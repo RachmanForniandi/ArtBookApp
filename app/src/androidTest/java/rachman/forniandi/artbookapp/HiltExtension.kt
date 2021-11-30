@@ -10,7 +10,6 @@ import androidx.fragment.app.FragmentFactory
 import androidx.fragment.app.testing.FragmentScenario.EmptyFragmentActivity
 import androidx.test.core.app.ActivityScenario
 import androidx.test.core.app.ApplicationProvider
-import rachman.forniandi.artbookapp.hiltTesting.HiltTestActivity
 
 
 /**

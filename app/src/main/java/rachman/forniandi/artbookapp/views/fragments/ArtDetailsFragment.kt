@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.RequestManager
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import rachman.forniandi.artbookapp.R
 import rachman.forniandi.artbookapp.databinding.FragmentArtDetailsBinding
@@ -16,10 +17,10 @@ import rachman.forniandi.artbookapp.utils.Status
 import rachman.forniandi.artbookapp.viewmodels.ArtViewModel
 import javax.inject.Inject
 
-@ExperimentalCoroutinesApi
+@AndroidEntryPoint
 class ArtDetailsFragment @Inject constructor(val glide: RequestManager): Fragment(R.layout.fragment_art_details) {
 
-    private lateinit var viewModel: ArtViewModel
+    lateinit var viewModel: ArtViewModel
 
     private var binding:FragmentArtDetailsBinding?=null
 

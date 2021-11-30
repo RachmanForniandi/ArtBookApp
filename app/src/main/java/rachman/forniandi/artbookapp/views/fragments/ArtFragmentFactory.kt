@@ -14,9 +14,9 @@ private val listArtAdapter: ListArtAdapter):FragmentFactory() {
 
     override fun instantiate(classLoader: ClassLoader, className: String): Fragment {
         return when(className){
-            ImageGalleryFragment::class.java.name -> ImageGalleryFragment(imageRecyclerAdapter)
-            ArtDetailsFragment::class.java.name ->ArtDetailsFragment(glide)
             ArtFragment::class.java.name ->ArtFragment(listArtAdapter)
+            ArtDetailsFragment::class.java.name ->ArtDetailsFragment(glide)
+            ImageGalleryFragment::class.java.name -> ImageGalleryFragment(imageRecyclerAdapter)
             else->super.instantiate(classLoader, className)
         }
 
